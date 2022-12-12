@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body
-{
+
+body {
     font-family: 'Inter', sans-serif;
 }
-.nav-div
-{
-    width:100%;
+
+.nav-div {
+    width: 100%;
     height: 78px;
 }
-#upstox-logo
-{
+
+#upstox-logo {
     padding: 10px 0px 0px 20px;
     width: 50%;
     float: left;
 }
-#button-login 
-{
+
+#button-login {
     float: left;
     height: 50px;
     width: 48%;
     right: 0;
     display: flex;
-    justify-content: flex-end;  
+    justify-content: flex-end;
 }
-#login-button
-{
+
+#login-button {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -38,15 +38,15 @@ body
     background: transparent !important;
     color: #5A298B !important;
 }
-#open-demat
-{
+
+#open-demat {
     height: 710px;
     margin: 100px 0px 100px 0px;
     text-align: center;
     margin-bottom: 0;
 }
-.form-container
-{
+
+.form-container {
     width: 440px;
     height: 530px;
     margin: 0;
@@ -54,208 +54,208 @@ body
     float: left;
     text-align: left;
 
-   
+
 }
-.cup-image
-{
+
+.cup-image {
     width: 440px;
     height: 486px;
     float: left;
-   
+
     margin-bottom: 50px;
     margin-left: 10px;
 }
-.outer-div
-{
+
+.outer-div {
     display: inline-block;
 }
-#open-demat-text
-{
+
+#open-demat-text {
     color: #41246e;
     margin-top: 0;
     font-weight: 700;
-    font-size:20px ;
+    font-size: 20px;
 }
-#one-many
-{
+
+#one-many {
     font-size: 45px;
     font-weight: 700;
     padding-top: 20px;
 }
-#o-d-t-a
-{
+
+#o-d-t-a {
     font-size: 23px;
 }
-#dis-list
-{
+
+#dis-list {
     padding-inline-start: 25px;
     color: #5A5A5A;
     padding-top: 20px;
     font-size: 17px;
 }
-.dis-list-items
-{
+
+.dis-list-items {
     margin: 5px;
 }
-#terms-and-conditions
-{
+
+#terms-and-conditions {
     color: #41246E;
     margin-top: 40px;
 }
-.input-field
-{
+
+.input-field {
     width: 366px;
     height: 55px;
     border-bottom: 2px solid #41246E;
     float: left;
 }
-.input-field :focus
-{
-   outline: none;
+
+.input-field :focus {
+    outline: none;
 }
-#txtcontact
-{
+
+#txtcontact {
     border: none;
     margin-top: 20px;
     font-size: medium;
     color: black;
 }
-#plus-nine-one
-{
+
+#plus-nine-one {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
     color: #9B9B9B;
-    
+
 }
-::placeholder
-{
+
+::placeholder {
     color: black;
 }
-#phone-icon
-{
+
+#phone-icon {
     padding-top: 20px;
     padding-left: 10px;
 }
-#button-go
-{
+
+#button-go {
     width: 58px;
     height: 58px;
     background-color: #43165C;
     border: none;
     border-radius: 15px;
 }
-.go-button
-{
+
+.go-button {
     float: left;
     margin-left: 15px;
 }
-.form-items
-{
+
+.form-items {
     float: left;
 }
-#agree-terms
-{
+
+#agree-terms {
     font-size: 12px;
     text-align: justify;
     margin-top: 50px;
     color: #0000008f;
 }
-.agree
-{
+
+.agree {
     padding-top: 30px;
 }
-#benafit-section
-{
+
+#benafit-section {
     width: 100%;
     height: 975px;
     display: flex;
     justify-content: space-around;
 }
-.benafit-inner-first
-{
-    width:940px ;
+
+.benafit-inner-first {
+    width: 940px;
     height: 334px;
     position: absolute;
-    
+
 }
-#section2
-{
+
+#section2 {
     text-align: center;
     align-items: center;
     width: 100%;
     height: 975px;
 }
-#benafits-text
-{
+
+#benafits-text {
     color: #DB542A;
     font-size: 14px;
 }
-#why-choose
-{
+
+#why-choose {
     font-size: 32px;
 }
-#single-account
-{
+
+#single-account {
     font-weight: 400;
     font-size: 20px;
 }
-#benafit-images
-{
+
+#benafit-images {
     height: 213px;
     width: 910px;
     margin-top: 60px;
 }
-.benafit-imgs
-{
+
+.benafit-imgs {
     width: 217px;
     height: 165px;
 }
-.four-items
-{
-    width:910px ;
-    height: 412px; 
+
+.four-items {
+    width: 910px;
+    height: 412px;
     float: left;
     position: absolute;
     display: grid;
-    grid-template-columns:455px 455px ;
+    grid-template-columns: 455px 455px;
     grid-template-rows: 132px 132px;
     margin-top: 40px;
 }
-.four-inner-items
-{
+
+.four-inner-items {
     width: 455px;
     height: 132px;
     display: flex;
-    
+
 }
-.inner-icon
-{
+
+.inner-icon {
     height: 28px;
     width: 20px;
     padding-right: 15px;
 }
-.inner-heading
-{
+
+.inner-heading {
     margin: 0;
     text-align: left;
     font-weight: 500;
 }
-.inner-desc
-{
+
+.inner-desc {
     font-size: 14px;
     text-align: left;
     margin-top: 20px;
     width: 334px;
 }
-.button-div-last
-{
+
+.button-div-last {
     width: 910px;
     height: 49px;
     margin-top: 350px;
 }
-.start-investing
-{
+
+.start-investing {
     background-color: #41246e;
     color: white;
     width: 164px;
@@ -265,33 +265,33 @@ body
     font-size: 14px;
     font-weight: 600;
 }
-#pricing
-{
+
+#pricing {
     height: 781px;
     width: 100%;
-   
+
 }
-.pricing-outer-div
-{
+
+.pricing-outer-div {
     height: 781px;
     width: 100%;
     display: inline-block;
     /* text-align: center; */
     justify-content: center;
     display: flex;
-   
+
 }
-.container-1
-{
+
+.container-1 {
     height: 601px;
     width: 940px;
     background-color: #41246E;
     border-radius: 15px;
     position: absolute;
-    
+
 }
-#flat-fee
-{
+
+#flat-fee {
     font-size: 48px;
     font-weight: 600;
     color: white;
@@ -299,76 +299,76 @@ body
     display: flex;
     margin-top: 88px;
 }
-#flat-fee-div
-{
+
+#flat-fee-div {
     width: 586px;
     height: 149px;
     margin-left: 40px;
     float: left;
 }
-#tree
-{
+
+#tree {
     float: left;
     padding-bottom: 200px;
     position: absolute;
     margin-left: 629px;
-   
+
 }
-#tree-img
-{
+
+#tree-img {
     width: 263px;
     height: 273px;
     margin-top: -64px;
 }
-.prince-row
-{
+
+.prince-row {
     height: 165px;
     width: 848px;
     margin: 287px 0px 0px 44px;
-   
+
     display: grid;
-    grid-template-columns:212px 212px 212px 212px ;
+    grid-template-columns: 212px 212px 212px 212px;
 }
-.price-column
-{
+
+.price-column {
     width: 191px;
-    
+
     margin-left: 16px;
 }
-.rupee-symbol
-{
+
+.rupee-symbol {
     font-size: 32px;
     color: white;
     font-weight: 700;
 }
-.price
-{
-    font-size: 55px ;
+
+.price {
+    font-size: 55px;
     font-weight: 800;
     color: white;
 
 }
-.second-row
-{
+
+.second-row {
     font-size: 14px;
     font-weight: 600;
-   color: white;
-   margin: 25px 0px 19px 0px;
+    color: white;
+    margin: 25px 0px 19px 0px;
 }
-.third-row
-{
+
+.third-row {
     color: white;
     font-size: 14px;
     margin: 10px 0px 10px 0px;
 }
-.button-and-amc-text
-{
+
+.button-and-amc-text {
     height: 49px;
     margin-top: 64px;
     justify-content: space-between;
 }
-#view-pricing
-{
+
+#view-pricing {
     width: 192px;
     height: 49px;
     border: none;
@@ -378,8 +378,8 @@ body
     color: #41246e;
     margin-left: 50px;
 }
-#zero-amc-text
-{
+
+#zero-amc-text {
     display: inline-block;
     color: white;
     font-size: 14px;
@@ -387,5 +387,145 @@ body
     font-weight: 300;
 }
 
+#section4-outer-div {
+    height: 774px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.section-four-inner-box {
+    position: absolute;
+    width: 940px;
+    height: 594px;
+}
+
+.asset-calsess {
+    color: #DB542A;
+    text-align: center;
+}
+
+#a-c {
+    font-size: 14px;
+}
+
+.w-t-g-y-w {
+    font-size: 32px;
+}
+
+#way-to-grow {
+
+    text-align: center;
+}
 
 
+.tab {
+    overflow: hidden;
+
+    border-bottom: solid 1px black;
+
+}
+
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 20px;
+    color: #9988b3;
+    font-weight: 600;
+
+}
+
+
+.tab button:hover {}
+
+
+.tab button.active {
+
+    color: #43165C;
+    border-bottom: 5px solid #41246e;
+}
+
+.tabcontent {
+    margin-top: 96px;
+    width: 910px;
+    height: 408px;
+    display: none;
+    padding: 6px 12px;
+
+}
+
+.tablinks {
+    width: 204px;
+    color: #41246E;
+    font-weight: 500;
+}
+
+.tab-switch {
+    justify-content: space-between;
+}
+
+
+.tab-content {
+
+    padding-left: 25px;
+    width: 480px;
+    height: 312px;
+    float: left;
+}
+
+.tab-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.tab-content h3 
+{
+    color: #41246e;
+    font-size: 32px;
+}
+.tab-content li{
+    color: #4B4B4B;
+    padding: 7px 0px 7px 0px;
+    font-size: 16px;
+}
+.tab-content button
+{
+    border: none;
+    width: 164px;
+    height: 49px;
+    background-color: #41246E;
+    color: white;
+    font-size: 14px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+#stocks img
+{
+    width: 384px;
+    height: 312px;
+
+}
+#ipos img
+{
+    width: 338px;
+    height: 322px;
+
+}
+#mutual-funds img
+{
+    width: 356px;
+    height: 321px;
+
+}
+#futures-options img
+{
+    width: 379px;
+    height: 260px;
+
+}
