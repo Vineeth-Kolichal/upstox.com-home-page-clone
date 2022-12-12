@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body
+{
+    font-family: 'Inter', sans-serif;
+}
+.nav-div
+{
+    width:100%;
+    height: 78px;
+}
+#upstox-logo
+{
+    padding: 10px 0px 0px 20px;
+    width: 50%;
+    float: left;
+}
+#button-login 
+{
+    float: left;
+    height: 50px;
+    width: 48%;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;  
+}
+#login-button
+{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px !important;
+    border: 1px solid #5A298B;
+    padding: 14px 24px !important;
+    background: transparent !important;
+    color: #5A298B !important;
+}
+#open-demat
+{
+    height: 710px;
+    margin: 100px 0px 100px 0px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.form-container
+{
+    width: 440px;
+    height: 530px;
+    margin: 0;
+    /* background-color: aqua; */
+    float: left;
+    text-align: left;
+
+   
+}
+.cup-image
+{
+    width: 440px;
+    height: 486px;
+    float: left;
+   
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.outer-div
+{
+    display: inline-block;
+}
+#open-demat-text
+{
+    color: #41246e;
+    margin-top: 0;
+    font-weight: 700;
+    font-size:20px ;
+}
+#one-many
+{
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+#o-d-t-a
+{
+    font-size: 23px;
+}
+#dis-list
+{
+    padding-inline-start: 25px;
+    color: #5A5A5A;
+    padding-top: 20px;
+    font-size: 17px;
+}
+.dis-list-items
+{
+    margin: 5px;
+}
+#terms-and-conditions
+{
+    color: #41246E;
+    margin-top: 40px;
+}
+.input-field
+{
+    width: 366px;
+    height: 55px;
+    border-bottom: 2px solid #41246E;
+    float: left;
+}
+.input-field :focus
+{
+   outline: none;
+}
+#txtcontact
+{
+    border: none;
+    margin-top: 20px;
+    font-size: medium;
+    color: black;
+}
+#plus-nine-one
+{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #9B9B9B;
+    
+}
+::placeholder
+{
+    color: black;
+}
+#phone-icon
+{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#button-go
+{
+    width: 58px;
+    height: 58px;
+    background-color: #43165C;
+    border: none;
+    border-radius: 15px;
+}
+.go-button
+{
+    float: left;
+    margin-left: 15px;
+}
+.form-items
+{
+    float: left;
+}
+#agree-terms
+{
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 50px;
+    color: #0000008f;
+}
+.agree
+{
+    padding-top: 30px;
+}
+#benafit-section
+{
+    width: 100%;
+    height: 975px;
+    display: flex;
+    justify-content: space-around;
+}
+.benafit-inner-first
+{
+    width:940px ;
+    height: 334px;
+    position: absolute;
+    
+}
+#section2
+{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 975px;
+}
+#benafits-text
+{
+    color: #DB542A;
+    font-size: 14px;
+}
+#why-choose
+{
+    font-size: 32px;
+}
+#single-account
+{
+    font-weight: 400;
+    font-size: 20px;
+}
+#benafit-images
+{
+    height: 213px;
+    width: 910px;
+    margin-top: 60px;
+}
+.benafit-imgs
+{
+    width: 217px;
+    height: 165px;
+}
+.four-items
+{
+    width:910px ;
+    height: 412px; 
+    float: left;
+    position: absolute;
+    display: grid;
+    grid-template-columns:455px 455px ;
+    grid-template-rows: 132px 132px;
+    margin-top: 40px;
+}
+.four-inner-items
+{
+    width: 455px;
+    height: 132px;
+    display: flex;
+    
+}
+.inner-icon
+{
+    height: 28px;
+    width: 20px;
+    padding-right: 15px;
+}
+.inner-heading
+{
+    margin: 0;
+    text-align: left;
+    font-weight: 500;
+}
+.inner-desc
+{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 20px;
+    width: 334px;
+}
+.button-div-last
+{
+    width: 910px;
+    height: 49px;
+    margin-top: 350px;
+}
+.start-investing
+{
+    background-color: #41246e;
+    color: white;
+    width: 164px;
+    height: 49px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
