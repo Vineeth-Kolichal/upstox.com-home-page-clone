@@ -265,5 +265,127 @@ body
     font-size: 14px;
     font-weight: 600;
 }
+#pricing
+{
+    height: 781px;
+    width: 100%;
+   
+}
+.pricing-outer-div
+{
+    height: 781px;
+    width: 100%;
+    display: inline-block;
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+   
+}
+.container-1
+{
+    height: 601px;
+    width: 940px;
+    background-color: #41246E;
+    border-radius: 15px;
+    position: absolute;
+    
+}
+#flat-fee
+{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    justify-content: left;
+    display: flex;
+    margin-top: 88px;
+}
+#flat-fee-div
+{
+    width: 586px;
+    height: 149px;
+    margin-left: 40px;
+    float: left;
+}
+#tree
+{
+    float: left;
+    padding-bottom: 200px;
+    position: absolute;
+    margin-left: 629px;
+   
+}
+#tree-img
+{
+    width: 263px;
+    height: 273px;
+    margin-top: -64px;
+}
+.prince-row
+{
+    height: 165px;
+    width: 848px;
+    margin: 287px 0px 0px 44px;
+   
+    display: grid;
+    grid-template-columns:212px 212px 212px 212px ;
+}
+.price-column
+{
+    width: 191px;
+    
+    margin-left: 16px;
+}
+.rupee-symbol
+{
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+.price
+{
+    font-size: 55px ;
+    font-weight: 800;
+    color: white;
+
+}
+.second-row
+{
+    font-size: 14px;
+    font-weight: 600;
+   color: white;
+   margin: 25px 0px 19px 0px;
+}
+.third-row
+{
+    color: white;
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+}
+.button-and-amc-text
+{
+    height: 49px;
+    margin-top: 64px;
+    justify-content: space-between;
+}
+#view-pricing
+{
+    width: 192px;
+    height: 49px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #41246e;
+    margin-left: 50px;
+}
+#zero-amc-text
+{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin-left: 184px;
+    font-weight: 300;
+}
+
 
 
