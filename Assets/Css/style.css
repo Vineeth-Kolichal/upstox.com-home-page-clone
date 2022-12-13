@@ -637,7 +637,7 @@ body {
 .rocket-img {
     display: flex;
     float: left;
-    margin-left: 172px;
+    margin-left: 162px;
 }
 
 .letter-img {
@@ -699,4 +699,119 @@ body {
     width: 60px;
     height: 60px;
     float: left;
+}
+
+.tata-section-outer {
+    width: 100%;
+    height: 551px;
+    justify-content: center;
+    display: flex;
+}
+
+.tata-section-inner {
+    height: 551px;
+    width: 940px;
+}
+
+.b-b-t-b {
+    text-align: center;
+}
+
+.b-b-t-b h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.ratan-tata-img
+{
+    width: 940px;
+    height: 130px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+    display: flex;
+    margin-top: 55px;
+}
+.ratan-tata-img img
+{
+    margin: 0px 10px 0px 10px;
+    height: 130px;
+    width: 130px;
+   
+}
+.backed
+{
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.backed p
+{
+    width: 720px;
+    height: 56px;
+    text-align: center;
+    line-height: 30px;
+}
+.awards-grid
+{
+    height: 82px;
+    width: 940px;
+    justify-content: center;
+    display: flex;
+}
+.awards-grid
+{
+    width: 396;
+    height: 82px;
+    display: grid;
+    grid-template-columns: 136px 132px 132px;
+}
+.awards-grid{
+    margin-top: 35px;
+}
+.award-card
+{
+    height: 82px;
+    width: 123px;
+   text-align: center;
+   margin-right: 8px;
+   margin-left: 8px;
+}
+.award-tit
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.award-tit img
+{
+    width: 20px;
+    height: 18.5px;
+}
+.award-desc
+{
+    margin-top: 30px;
+}
+.award-button
+{
+    width: 940px;
+    justify-content: center;
+    display: flex;
+    height: 49px;
+    margin-top: 42px;
+}
+.award-button button
+{
+    width: 165px;
+    color: white;
+    background-color: #41246e;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.awa-acco
+{
+    height: 1344px;
+    width: 100px;
 }
