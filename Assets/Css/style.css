@@ -722,8 +722,8 @@ body {
     font-weight: 700;
     margin-top: 0;
 }
-.ratan-tata-img
-{
+
+.ratan-tata-img {
     width: 940px;
     height: 130px;
     display: grid;
@@ -732,76 +732,77 @@ body {
     display: flex;
     margin-top: 55px;
 }
-.ratan-tata-img img
-{
+
+.ratan-tata-img img {
     margin: 0px 10px 0px 10px;
     height: 130px;
     width: 130px;
-   
+
 }
-.backed
-{
+
+.backed {
     justify-content: center;
     display: flex;
     font-size: 20px;
     margin-top: 20px;
 }
-.backed p
-{
+
+.backed p {
     width: 720px;
     height: 56px;
     text-align: center;
     line-height: 30px;
 }
-.awards-grid
-{
+
+.awards-grid {
     height: 82px;
     width: 940px;
     justify-content: center;
     display: flex;
 }
-.awards-grid
-{
+
+.awards-grid {
     width: 396;
     height: 82px;
     display: grid;
     grid-template-columns: 136px 132px 132px;
 }
-.awards-grid{
+
+.awards-grid {
     margin-top: 35px;
 }
-.award-card
-{
+
+.award-card {
     height: 82px;
     width: 123px;
-   text-align: center;
-   margin-right: 8px;
-   margin-left: 8px;
+    text-align: center;
+    margin-right: 8px;
+    margin-left: 8px;
 }
-.award-tit
-{
+
+.award-tit {
     font-size: 20px;
     font-weight: 600;
 }
-.award-tit img
-{
+
+.award-tit img {
     width: 20px;
     height: 18.5px;
 }
-.award-desc
-{
+
+.award-desc {
     margin-top: 30px;
 }
-.award-button
-{
+
+.award-button {
     width: 940px;
     justify-content: center;
     display: flex;
     height: 49px;
     margin-top: 42px;
 }
-.award-button button
-{
+
+.award-button button {
     width: 165px;
     color: white;
     background-color: #41246e;
@@ -810,39 +811,39 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
-.awa-acco
-{
+
+.awa-acco {
     height: 614x;
     width: 100%;
     justify-content: center;
     display: flex;
 }
-.awa-acco-inner
-{
+
+.awa-acco-inner {
     width: 940px;
     height: 614px;
     padding-top: 200px;
-   
+
 }
-.awa-acco-title
-{
+
+.awa-acco-title {
     text-align: center;
     margin-bottom: 78px;
 
 }
-.awa-acco-title h2
-{
+
+.awa-acco-title h2 {
     font-size: 24px;
     font-weight: 600;
 }
-.a-a-cards
-{
+
+.a-a-cards {
     height: 348px;
     width: 235px;
     float: left;
 }
-.brand-image
-{
+
+.brand-image {
     height: 180px;
     width: 211px;
     border: solid 1px grey;
@@ -850,85 +851,231 @@ body {
     justify-content: center;
     display: flex;
 }
-.brand-image img
-{
+
+.brand-image img {
     width: 154px;
     height: 59px;
     margin-top: 56px;
 }
-.brand-image-descr
-{
+
+.brand-image-descr {
     font-size: 20px;
     margin: 24px 5px 10px 0px;
     line-height: 27px;
 }
-.love-image-start-outer
-{
+
+.love-image-start-outer {
     width: 100%;
     height: 730px;
     justify-content: center;
     display: flex;
 }
-.love-image-start
-{
+
+.love-image-start {
     width: 940px;
     height: 730px;
 }
-.section-head
-{
+
+.section-head {
     width: 940px;
     height: 210px;
     text-align: center;
 }
-.section-head h2
-{
+
+.section-head h2 {
     font-size: 32px;
     margin-bottom: 57px;
 }
-.rating-grid
-{ margin-top: 10px;
+
+.rating-grid {
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 310px 300px 310px;
 }
-.rating-grid-item
-{
+
+.rating-grid-item {
     width: 310px;
     height: 272px;
 }
-.user-review p
-{
+
+.user-review p {
     font-size: 20px;
     text-align: left;
     /* margin-right: 55px; */
     line-height: 30px;
     margin-top: 0px;
 }
-.user-row div
-{
+
+.user-row div {
     float: left;
 }
-.user-row
-{
-   margin-top: 30px;
-   margin-bottom: 0px;
+
+.user-row {
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
-.user-nam
-{
+
+.user-nam {
     margin: 0px 0px 0px 10px;
 }
-.review-date
-{
-    
+
+.review-date {
+
     margin-top: 68px;
     text-align: left;
 }
-.review-date p
-{
+
+.review-date p {
     font-size: 16px;
 }
-.user-review
-{
+
+.user-review {
     height: 180px;
     width: 249px;
 }
 
+.account-opening {
+    width: 100%;
+    height: 665px;
+    justify-content: center;
+    display: flex;
+}
+
+.account-opening-card {
+    width: 940px;
+    height: 485px;
+    background-color: #DEDAD1;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 470px 470px;
+}
+
+.account-opening-card img {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.account-opening-content h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 4px;
+}
+
+.account-opening-content {
+    padding: 23px 70px 0px 0px;
+}
+
+.account-opening-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.btn-start {
+    background-color: #41246e;
+    border: none;
+    width: 164px;
+    height: 49px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.account-opening-content p {
+    color: #00000075;
+    font-size: 14px;
+}
+
+.account-opening-content ol {
+    margin-left: -16px;
+}
+
+.open-demat-faq {
+    width: 100%;
+    height: 679px;
+    display: flex;
+    justify-content: center;
+}
+
+.open-demat-faq-inner {
+    width: 940px;
+    height: 499px;
+}
+
+.faqs {
+    height: 410px;
+    width: 940px;
+}
+
+.open-demat-faq-inner h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.collapsible h3 
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.faq-button-div
+{
+    margin: 22px 0px 0px 0px;
+} 
+.collapsible {
+    color: rgb(5, 0, 0);
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    /* border-bottom: solid 1px black; */
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active {
+
+    border: none;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: rgb(3, 0, 0);
+    font-weight:bolder;
+    font-size: larger;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: transparent;
+    border-bottom: solid 1px black;
+  }
+  #v-m-f-button
+  {
+    border: none;
+    background-color: #41246e;
+    color: white;
+    width: 175px;
+    height: 49px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  #v-m-f-button :hover
+  {
+    background-color: #7031af;
+  }

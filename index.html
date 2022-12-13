@@ -411,7 +411,7 @@
 
     </section>
 
-<!-- Awards and accolades -->
+    <!-- Awards and accolades -->
     <section>
         <div class="awa-acco">
             <div class="awa-acco-inner">
@@ -486,9 +486,10 @@
                             </div>
                         </div>
                         <div class="rating-grid-item">
-                           <div class="user-review">
-                            <p>One of the best trading platform. Smooth UI. All that you need for efficient trading, perfectly aligned and kept under a seamless platform!</p>
-                           </div>
+                            <div class="user-review">
+                                <p>One of the best trading platform. Smooth UI. All that you need for efficient trading,
+                                    perfectly aligned and kept under a seamless platform!</p>
+                            </div>
                             <div class="user-row">
                                 <div class="user-icon"><img src="Assets/icons/fm-icon.svg" alt=""></div>
                                 <div>
@@ -503,7 +504,8 @@
                         </div>
                         <div class="rating-grid-item">
                             <div class="user-review">
-                                <p>A reliable app and highly trustworthy. No one should avoid taking benefit from such a great service! Designed for speed and comfort!</p>
+                                <p>A reliable app and highly trustworthy. No one should avoid taking benefit from such a
+                                    great service! Designed for speed and comfort!</p>
                             </div>
                             <div class="user-row">
                                 <div class="user-icon"><img src="Assets/icons/fm-icon-2.svg" alt=""></div>
@@ -526,6 +528,83 @@
         </div>
 
     </section>
+    <!-- Account opening process section -->
+    <section>
+        <div class="account-opening">
+            <div class="account-opening-card">
+                <div>
+                    <img src="Assets/images/quick.png" alt="">
+                </div>
+                <div class="account-opening-content">
+                    <h2>Account Opening Process</h2>
+                    <ol>
+                        <li>
+                            <h3>Submit & verify PAN and Aadhaar</h3>
+                        </li>
+                        <li>
+                            <h3>Verify your bank details</h3>
+                        </li>
+                        <li>
+                            <h3>eSign</h3>
+                        </li>
+                    </ol>
+                    <button class="btn-start">Start Investing</button>
+                    <p>You can also track your application status. It will take up to 3 days to verify and open your
+                        account.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Open Demat account FAQ section -->
+    <section>
+        <div class="open-demat-faq">
+
+            <div class="open-demat-faq-inner">
+                <h2>Open Demat Account FAQs</h2>
+                <div class="faqs">
+
+                    <div class="faq-button-div">
+                        <button class="collapsible">
+                            <h3>Do I have to pay for using the platforms?</h3>
+                        </button>
+                        <div class="content">
+                            <p>No. You can check out the Upstox Pro web & mobile platforms for free and open an account
+                                only when you’re ready to place a trade. There’s no fee to use the trading software.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-button-div">
+                        <button class="collapsible">
+                            <h3>
+                                <h3>What is the brokerage* cost of trading in Futures and Options?</h3>
+                        </button>
+                        <div class="content">
+                            <p>For Futures, you’ll be charged ₹20* or 0.05% (whichever is lower) per order. For Options,
+                                you’ll be charged a flat fee of ₹20* per order. Your maximum brokerage* cost remains
+                                ₹20* per order irrespective of the size of the order.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-button-div">
+                        <button class="collapsible">
+                            <h3>What is the brokerage* cost of trading in Equities?</h3>
+                        </button>
+                        <div class="content">
+                            <p>For equity delivery trades, brokerage* charges are ₹20* per order or 2.5% (whichever is
+                                lower) for both buy and sell orders. For equity intraday trades, brokerage* charges are
+                                ₹20* per order or 0.05% (whichever is lower) for both buy and sell orders.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="v-m-f-button"> View More FAQs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
 </body>
@@ -544,6 +623,22 @@
         evt.currentTarget.className += " active";
     }
     document.getElementById("defaultOpen").click();
+</script>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
 </script>
 
 </html>
