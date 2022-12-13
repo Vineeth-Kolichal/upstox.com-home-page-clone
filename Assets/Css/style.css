@@ -812,6 +812,123 @@ body {
 }
 .awa-acco
 {
-    height: 1344px;
-    width: 100px;
+    height: 614x;
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
+.awa-acco-inner
+{
+    width: 940px;
+    height: 614px;
+    padding-top: 200px;
+   
+}
+.awa-acco-title
+{
+    text-align: center;
+    margin-bottom: 78px;
+
+}
+.awa-acco-title h2
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+.a-a-cards
+{
+    height: 348px;
+    width: 235px;
+    float: left;
+}
+.brand-image
+{
+    height: 180px;
+    width: 211px;
+    border: solid 1px grey;
+    border-radius: 7px;
+    justify-content: center;
+    display: flex;
+}
+.brand-image img
+{
+    width: 154px;
+    height: 59px;
+    margin-top: 56px;
+}
+.brand-image-descr
+{
+    font-size: 20px;
+    margin: 24px 5px 10px 0px;
+    line-height: 27px;
+}
+.love-image-start-outer
+{
+    width: 100%;
+    height: 730px;
+    justify-content: center;
+    display: flex;
+}
+.love-image-start
+{
+    width: 940px;
+    height: 730px;
+}
+.section-head
+{
+    width: 940px;
+    height: 210px;
+    text-align: center;
+}
+.section-head h2
+{
+    font-size: 32px;
+    margin-bottom: 57px;
+}
+.rating-grid
+{ margin-top: 10px;
+    display: grid;
+    grid-template-columns: 310px 300px 310px;
+}
+.rating-grid-item
+{
+    width: 310px;
+    height: 272px;
+}
+.user-review p
+{
+    font-size: 20px;
+    text-align: left;
+    /* margin-right: 55px; */
+    line-height: 30px;
+    margin-top: 0px;
+}
+.user-row div
+{
+    float: left;
+}
+.user-row
+{
+   margin-top: 30px;
+   margin-bottom: 0px;
+}
+.user-nam
+{
+    margin: 0px 0px 0px 10px;
+}
+.review-date
+{
+    
+    margin-top: 68px;
+    text-align: left;
+}
+.review-date p
+{
+    font-size: 16px;
+}
+.user-review
+{
+    height: 180px;
+    width: 249px;
+}
+
